@@ -1,0 +1,32 @@
+// WAP to find the largest among 3 numbers given by a user.
+#include <stdio.h>
+void main()
+{
+    int number; // declare 3 variables
+    printf("Enter any integer number:");
+    scanf("%d", &number); // read a numbers and assign them to number variable
+
+    if (number > 0) // condition 1: check whether a number is positive
+    {
+        if (number % 2 == 0) // Condition 2: Check whether a number is even or odd
+            printf("Number=%d is a positve and even", number);
+
+        else // when odd this block is excuted
+            printf("Number=%d is a positve and odd", number);
+    }
+
+    else
+    {
+        if (number == 0) // Condition 3: Check whether a number is 0
+            printf("Number=%d is neither positive nor negative", number);
+
+        else
+        {
+            if (number % 2 == 0) // Condition 4: Check whether a number is even or odd
+                printf("Number=%d is a negative and even", number);
+
+            else // when odd this block is excuted
+                printf("Number=%d is a negative and odd", number);
+        }
+    }
+}

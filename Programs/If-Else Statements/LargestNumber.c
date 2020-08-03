@@ -19,7 +19,7 @@ void main()
     else if (c > b)  // condition 3: 'c' might be the largest number
         printf("Largent number c= %d", c);
 
-    else  // condition 4: a==b and b==c
+    else  // deafult condition 4: a==b and b==c
         printf("All numbers are equal");
 
 }
