@@ -1,4 +1,7 @@
-// WAP to find the largest among 3 numbers given by a user.
+/*
+    Demonstration: use of if-else statements.
+    Short Info: WAP to find the largest among 3 numbers given by a user.
+*/
 #include <stdio.h>
 void main()
 {

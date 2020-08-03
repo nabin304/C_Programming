@@ -1,4 +1,8 @@
-// WAP to find the largest among 3 numbers given by a user.
+/*  
+    Demonstration: use of nested if-else statements.    
+    Short Info: WAP to determine the number entered by a user is a positive even/odd number or a negative even/odd number.
+    Apart from that if a number is 0 then display a message like a number is neither positive nor negative.
+*/
 #include <stdio.h>
 void main()
 {
