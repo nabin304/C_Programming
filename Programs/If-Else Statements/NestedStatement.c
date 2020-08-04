@@ -8,7 +8,7 @@ void main()
 {
     int number; 
     printf("Enter any integer number:");
-    scanf("%d", &number); // read any integer number and assign them to number variable
+    scanf("%d", &number); // read any integer number and assign it to number variable
 
     if (number > 0) // condition 1: check whether a number is positive
     {
