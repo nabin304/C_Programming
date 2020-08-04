@@ -6,7 +6,7 @@
 #include <stdio.h>
 void main()
 {
-    int number; // declare 3 variables
+    int number; 
     printf("Enter any integer number:");
     scanf("%d", &number); // read a numbers and assign them to number variable
 
