@@ -1,6 +1,12 @@
 /*
     Demo: Nested for loop.
-    Info: Draw a tree of dynamic height.
+    Info: Draw a tree of dynamic height. 
+    The output looks like for the tree hieght = 4
+             *
+           * * *
+         * * * * *
+        *  * * * * * 
+    
 */
 #include <stdio.h>
 void main()
