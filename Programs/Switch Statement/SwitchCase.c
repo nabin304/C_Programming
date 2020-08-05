@@ -30,10 +30,10 @@ void main()
         printf("Friday");
         break;
     case 7:
-        printf("Satruday");
+        printf("Saturday");
         break;
     default:
-        printf("Unknwon day or invalid input data");
+        printf("Invalid input data");
         break;
     }    
 }
