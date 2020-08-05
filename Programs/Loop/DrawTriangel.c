@@ -1,6 +1,6 @@
 /*
     Demo: Nested for loop.
-    Info: Draw a tree(left align) of dynamic height. 
+    Info: Draw a triangle of dynamic height. 
     The output looks like for the tree hieght = 4
              *
              * * *
