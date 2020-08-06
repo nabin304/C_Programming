@@ -1,5 +1,6 @@
 /*
     A simple function to add two integer numbers and return the sum of the given 2 numbers.
+    Note: Functions with arguments and return value
 */
 #include <stdio.h>
 int AddNumber(int a, int b);  // 1. function declaration
