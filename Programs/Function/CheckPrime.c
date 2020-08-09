@@ -12,7 +12,9 @@ void main()
 
 int GetNthFibonacciNumber(int term)
 {
-    if (term==0 || term==1)
+    if(term==0)
+    return 0;
+    if (term==1)
         return 1;
     else
     {
