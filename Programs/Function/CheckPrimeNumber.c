@@ -1,28 +1,14 @@
 /*
-    A prgram to to determine whether the nth term of the fibonacci series is a prime or not.
+    A prgram to check the number entered by user is a Prime number or not.
 */
 #include <stdio.h>
 void CheckPrime(int n);   // prototype
-int GetNthFibonacciNumber(int term);
 void main()
 {
-    int term, fibonacciNumber;
-    printf("Enter any fibonacci term (must be a positive number):");
-    scanf("%d", &term);
-    fibonacciNumber= GetNthFibonacciNumber(term);
-    CheckPrime(fibonacciNumber);  // call
-}
-
-int GetNthFibonacciNumber(int term)
-{
-    if(term==0)
-    return 0;
-    if (term==1)
-        return 1;
-    else
-    {
-        return GetNthFibonacciNumber(term-1)+GetNthFibonacciNumber(term-2);
-    }
+    int n;
+    printf("Enter any positive integer number:");
+    scanf("%d", &n);    
+    CheckPrime(n);  // call
 }
 
 void CheckPrime(int n)  // def

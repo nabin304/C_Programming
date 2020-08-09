@@ -1,3 +1,6 @@
+/*
+    A prgram to find the nth term of the fibonacci series.
+*/
 #include <stdio.h>
 int GetNthFibonacciNumber(int term);
 void main()
