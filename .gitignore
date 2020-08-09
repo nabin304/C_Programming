@@ -11,6 +11,7 @@
 *.json
 *.exe
 
+
 dotnet-tools.json
 
 # User-specific files
