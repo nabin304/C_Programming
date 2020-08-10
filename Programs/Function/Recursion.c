@@ -3,14 +3,14 @@
 */
 #include<stdio.h>
 
-void SayHello();
+void SayHello(int count);
 void main()
 {
     SayHello(5);
 }
 
-void SayHello(int count) 
-{
+void SayHello(int count)
+{  
     if(count>0)
         printf("%d Hello\n",count);
 
