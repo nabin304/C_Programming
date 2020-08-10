@@ -10,9 +10,9 @@ void main()
                         { 40, 50, 60 },
                         { 70, 80, 90 }
                      };    
-    for (col = 0; col<=2; col++)
+    for (row = 0; row<=2; row++)
     {
-        for (row = 0; row <=2; row++)
+        for (col = 0; col <=2; col++)
         {
             if(col==row)
                 printf("Matrix[%d][%d] = %d\n",row, col,matrixA[row][col]);
