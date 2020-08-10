@@ -1,5 +1,5 @@
 /*
-    Print Diagonal element of of given square matrix 3*3.
+    Print diagonal elements of a given square matrix 3*3.
 */
 #include<stdio.h>
 
